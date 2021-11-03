@@ -39,12 +39,13 @@ Cognitive Services resource on your Azure Portal:
     - Region: choose your preferred region
     - Name: enter a unique name for your resource
     - Pricing tier: "Standard S0"
+3. (Alternative) For a free resource, create a "Text Analytics" resource with the "Free F0" pricing tier selected
 4. Select the required checkboxes and click on "Review and Create"
 5. Wait for deployment to complete, then click on "View Resource"
-6. Go to the "Keys and Endpoint" page and take note of:
-    - Endpoint: the HTTP endpoint to which client applications can send requests
-    - KEY 1 / KEY 2: two keys that can be used for authentication (use either key to authenticate)
-    - Location: the location where the resource is hosted (required for requests to some APIs)
+6. Go to the "Keys and Endpoint" page and take note of the following:
+    - "Endpoint": the HTTP endpoint to which client applications can send requests
+    - "KEY 1" / "KEY 2": two keys that can be used for authentication (use either key to authenticate)
+    - "Location/Region": the location where the resource is hosted (required for requests to some APIs)
 7. Copy the `.example.env` file to `.env`
 8. Update the `.env` file:
     - `COG_SERVICE_ENDPOINT`: replace the value with the "Endpoint" value from your Cognitive Serices resource
@@ -56,6 +57,7 @@ Let's discover Azure Cognitive Services by building a simple language detector!
 
 Original inspiration:
 
+- [Create and consume Cognitive Services Module](https://docs.microsoft.com/en-us/learn/modules/create-manage-cognitive-services/)
 - [Lab Website](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/01-get-started-cognitive-services.html)
 - [Python Code on GitHub](https://github.com/MicrosoftLearning/AI-102-AIEngineer/tree/master/01-getting-started/Python)
 
