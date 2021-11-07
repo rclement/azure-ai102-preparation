@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 azure-ai-textanalytics = "*"
+jupyter = "*"
 python-dotenv = "*"
 requests = "*"
 
