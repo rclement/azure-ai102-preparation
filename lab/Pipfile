@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 azure-ai-textanalytics = "*"
+azure-cognitiveservices-vision-computervision = "*"
 jupyter = "*"
+pillow = "*"
 python-dotenv = "*"
 requests = "*"
 

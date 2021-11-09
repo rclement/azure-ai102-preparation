@@ -21,7 +21,9 @@ These exercises are greatly inspired by Microsoft Learning content for the AI-10
 Install the following Python packages into a virtual environment:
 
 - `azure-ai-textanalytics`
+- `azure-cognitiveservices-vision-computervision`
 - `jupyter`
+- `pillow`
 - `python-dotenv`
 - `requests`
 
