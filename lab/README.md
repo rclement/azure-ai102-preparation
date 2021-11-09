@@ -21,6 +21,7 @@ These exercises are greatly inspired by Microsoft Learning content for the AI-10
 Install the following Python packages into a virtual environment:
 
 - `azure-ai-textanalytics`
+- `azure-cognitiveservices-speech`
 - `azure-cognitiveservices-vision-computervision`
 - `jupyter`
 - `matplotlib`
@@ -54,3 +55,4 @@ Cognitive Services resource on your Azure Portal:
 8. Update the `.env` file:
     - `COG_SERVICE_ENDPOINT`: replace the value with the "Endpoint" value from your Cognitive Serices resource
     - `COG_SERVICE_KEY`: replace the value with either the "KEY 1" or "KEY 2" value from your Cognitive Services resource
+    - `COG_REGION`: replace the value with the "Location/Region" value from your Cognitive Services resource

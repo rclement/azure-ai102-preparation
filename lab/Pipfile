@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 azure-ai-textanalytics = "*"
+azure-cognitiveservices-speech = "*"
 azure-cognitiveservices-vision-computervision = "*"
 jupyter = "*"
 matplotlib = "*"
