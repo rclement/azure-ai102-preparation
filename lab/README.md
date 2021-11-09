@@ -23,6 +23,7 @@ Install the following Python packages into a virtual environment:
 - `azure-ai-textanalytics`
 - `azure-cognitiveservices-vision-computervision`
 - `jupyter`
+- `matplotlib`
 - `pillow`
 - `python-dotenv`
 - `requests`
