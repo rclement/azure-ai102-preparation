@@ -24,7 +24,7 @@ def speech_synthesis(text: str) -> None:
     speech_synthesizer = speech.SpeechSynthesizer(speech_config)
 
     # Run the text-to-speech with the input text
-    speak = speech_synthesizer.speak_text_async(text).get()
+    speak = speech_synthesizer.speak_text(text)
     if speak.reason != speech.ResultReason.SynthesizingAudioCompleted:
         print(speak.reason)
 
